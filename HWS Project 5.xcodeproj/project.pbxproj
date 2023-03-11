@@ -28,6 +28,7 @@
 		3885054529BBB18E0091C8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3885054B29BBB2C50091C8BB /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		3885054D29BBE3500091C8BB /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		3885054F29BC0F040091C8BB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		3885052B29BBB18C0091C8BB = {
 			isa = PBXGroup;
 			children = (
+				3885054F29BC0F040091C8BB /* README.md */,
 				3885053629BBB18C0091C8BB /* HWS Project 5 */,
 				3885053529BBB18C0091C8BB /* Products */,
 			);
