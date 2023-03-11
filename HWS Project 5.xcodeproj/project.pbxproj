@@ -13,6 +13,8 @@
 		3885053F29BBB18C0091C8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3885053D29BBB18C0091C8BB /* Main.storyboard */; };
 		3885054129BBB18E0091C8BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3885054029BBB18E0091C8BB /* Assets.xcassets */; };
 		3885054429BBB18E0091C8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3885054229BBB18E0091C8BB /* LaunchScreen.storyboard */; };
+		3885054C29BBB2C50091C8BB /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3885054B29BBB2C50091C8BB /* start.txt */; };
+		3885054E29BBE3500091C8BB /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885054D29BBE3500091C8BB /* util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3885054029BBB18E0091C8BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3885054329BBB18E0091C8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3885054529BBB18E0091C8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3885054B29BBB2C50091C8BB /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		3885054D29BBE3500091C8BB /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		3885053629BBB18C0091C8BB /* HWS Project 5 */ = {
 			isa = PBXGroup;
 			children = (
+				3885054D29BBE3500091C8BB /* util.swift */,
 				3885053729BBB18C0091C8BB /* AppDelegate.swift */,
 				3885053929BBB18C0091C8BB /* SceneDelegate.swift */,
 				3885053B29BBB18C0091C8BB /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				3885054029BBB18E0091C8BB /* Assets.xcassets */,
 				3885054229BBB18E0091C8BB /* LaunchScreen.storyboard */,
 				3885054529BBB18E0091C8BB /* Info.plist */,
+				3885054B29BBB2C50091C8BB /* start.txt */,
 			);
 			path = "HWS Project 5";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3885054429BBB18E0091C8BB /* LaunchScreen.storyboard in Resources */,
+				3885054C29BBB2C50091C8BB /* start.txt in Resources */,
 				3885054129BBB18E0091C8BB /* Assets.xcassets in Resources */,
 				3885053F29BBB18C0091C8BB /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 				3885053C29BBB18C0091C8BB /* ViewController.swift in Sources */,
 				3885053829BBB18C0091C8BB /* AppDelegate.swift in Sources */,
 				3885053A29BBB18C0091C8BB /* SceneDelegate.swift in Sources */,
+				3885054E29BBE3500091C8BB /* util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
